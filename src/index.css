@@ -7,7 +7,57 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.container {
+  background-color: #1c1c1c;
+  max-width: 45rem;
+  min-width: 25rem;
+  padding: 4rem 2rem 7rem;
+}
+
+.periodic-text {
+  color: #e1e1e1;
+  font-size: 90px;
+  margin: 20px;
+}
+
+.periodic-text .element {
+  background: #12472f;
+  padding: 5px;
+  font-weight: bold;
+  color: #FFF;
+}
+
+label {
+  color: #e1e1e1;
+  font-size: larger;
+  font-weight: 600;
+}
+
+.inputs {
+  display: flex
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 0;
+  margin: 5px;
+  text-align: left;
+}
+
+.name-form button {
+  width: 100%;
+  color: #e1e1e1;
+  background-color: #12472f;
+  border-radius: 6px;
+  margin-top: 10px;
+  padding: 7px;
+  font-size: large;
+  border: none;
 }
