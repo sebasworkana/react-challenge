@@ -1,7 +1,7 @@
 # DO NOT PULL TO THIS REPOSITORY
 ### react-challenge
 
-1. Create a fork of this public repository https://github.com/sebasworkana/react- challenge.git on your own repository, and push it to a branch called react-challenge and then send a PR to your main branch, finally give us access to this github user sebasworkana.
+1. Create a fork of this public repository https://github.com/sebasworkana/react-challenge.git on your own repository, and push it to a branch called react-challenge and then send a PR to your main branch, finally give us access to this github user sebasworkana.
 2. The main challenge is that you create a Page with the following Style and format.
 [![React-Challenge.png](https://i.postimg.cc/nrNG2p2R/React-Challenge.png)](https://postimg.cc/30CGJMPm)
 3. You need to enumerate all Periodic table of the elements on CSS class and make use of it, matching words in First name and last name “Highlighting” them as in the image.
