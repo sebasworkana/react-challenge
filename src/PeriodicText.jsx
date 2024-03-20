@@ -1,18 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import preiodicTable from './preidictable'
+import periodicTable from './periodicTable';
 
 function PeriodicText({ text }) {
   const lowerText = text ? text.toLowerCase() : '';
   let bestLength = 0;
   let bestElem = '';
-  preiodicTable.forEach((element) => {
-    const lowerElement = element.toLowerCase()
+  periodicTable.forEach((element) => {
+    const lowerElement = element.toLowerCase();
     if (lowerElement.length > bestLength && lowerText.includes(lowerElement)) {
       bestLength = lowerElement.length;
       bestElem = element;
     }
-  })
+  });
   /*
   for (const element of preidictable) {
     const lowerElement = element.toLowerCase()
@@ -26,21 +26,22 @@ function PeriodicText({ text }) {
   }
   */
   if (bestLength) {
-    const lowerElement = bestElem.toLowerCase()
+    const lowerElement = bestElem.toLowerCase();
     const subText = lowerText?.split(lowerElement);
+    const subTextWithCaps = [ text?.substr(0, subText[0].length), text?.substr(subText[0].length + bestElem.length)]
     return(
-      <p className='periodic-text'>{subText[0]}<span className='element'>{bestElem}</span>{subText[1]}</p>
-    )
+      <p className='periodic-text'>{subTextWithCaps[0]}<span className='element'>{bestElem}</span>{subTextWithCaps[1]}</p>
+    );
   } else {
     return (
       <p className='periodic-text'>{text}</p>
-    )
+    );
   }
 
 }
 
 PeriodicText.propTypes = {
   text: PropTypes.string
-}
+};
 
 export default PeriodicText;

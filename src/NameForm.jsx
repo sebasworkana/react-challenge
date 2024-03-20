@@ -18,7 +18,7 @@ function NameForm() {
     const formData = new FormData(form);
     const info = Object.fromEntries(formData.entries());
     console.log(info);
-    dispatch(changeNames(info))
+    dispatch(changeNames(info));
   }
   return (
     <form className="name-form" method="post" onSubmit={handleSubmit}>
@@ -34,7 +34,7 @@ function NameForm() {
       </div>
       <button type="submit">Breakify</button>
     </form>
-  )
+  );
 }
 
 export default NameForm;

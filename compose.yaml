@@ -1,0 +1,9 @@
+services:
+  breakify:
+    build: "./"
+    ports: 
+      - "3000:3000"
+    volumes:
+      - ./src:/code/src
+      - ./public:/code/public
+      - ./package.json:/code/package.json
