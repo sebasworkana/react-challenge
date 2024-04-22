@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  frontend:
+    container_name: react-challenge
+    build: .
+    ports:
+      - 3000:3000
+    stdin_open: true
+    command: npm start

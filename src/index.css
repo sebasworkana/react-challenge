@@ -1,0 +1,19 @@
+:root {
+
+    --bg-color: #212121;
+    --text-color: #b1b1b1;
+    --main-color: #044730;
+}
+
+html {
+    font-size: 14px;
+}
+body {
+
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: block;
+    margin: 0;
+    height: 100%;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}

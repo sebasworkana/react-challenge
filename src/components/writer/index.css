@@ -1,0 +1,131 @@
+.paper {
+
+    text-align: center;
+}
+
+.line {
+
+    color: var(--text-color);
+    font-size: 5rem;
+    padding: 0;
+    margin: 0 0 2rem 0;
+    letter-spacing: 3px;
+}
+
+.line > span {
+
+    padding: 3px;
+}
+
+/* This is completely usesless. I could move it to the selector above. However,
+ each element could have different colors */
+
+.He  {background-color: var(--main-color)}
+.Li  {background-color: var(--main-color)}
+.Be  {background-color: var(--main-color)}
+.Ne  {background-color: var(--main-color)}
+.Na  {background-color: var(--main-color)}
+.Mg  {background-color: var(--main-color)}
+.Al  {background-color: var(--main-color)}
+.Si  {background-color: var(--main-color)}
+.Cl  {background-color: var(--main-color)}
+.Ar  {background-color: var(--main-color)}
+.Ca  {background-color: var(--main-color)}
+.Sc  {background-color: var(--main-color)}
+.Ti  {background-color: var(--main-color)}
+.Cr  {background-color: var(--main-color)}
+.Mn  {background-color: var(--main-color)}
+.Fe  {background-color: var(--main-color)}
+.Co  {background-color: var(--main-color)}
+.Ni  {background-color: var(--main-color)}
+.Cu  {background-color: var(--main-color)}
+.Zn  {background-color: var(--main-color)}
+.Ga  {background-color: var(--main-color)}
+.Ge  {background-color: var(--main-color)}
+.As  {background-color: var(--main-color)}
+.Se  {background-color: var(--main-color)}
+.Br  {background-color: var(--main-color)}
+.Kr  {background-color: var(--main-color)}
+.Rb  {background-color: var(--main-color)}
+.Sr  {background-color: var(--main-color)}
+.Zr  {background-color: var(--main-color)}
+.Nb  {background-color: var(--main-color)}
+.Mo  {background-color: var(--main-color)}
+.Tc  {background-color: var(--main-color)}
+.Ru  {background-color: var(--main-color)}
+.Rh  {background-color: var(--main-color)}
+.Pd  {background-color: var(--main-color)}
+.Ag  {background-color: var(--main-color)}
+.Cd  {background-color: var(--main-color)}
+.In  {background-color: var(--main-color)}
+.Sn  {background-color: var(--main-color)}
+.Sb  {background-color: var(--main-color)}
+.Te  {background-color: var(--main-color)}
+.Xe  {background-color: var(--main-color)}
+.Cs  {background-color: var(--main-color)}
+.Ba  {background-color: var(--main-color)}
+.La  {background-color: var(--main-color)}
+.Ce  {background-color: var(--main-color)}
+.Pr  {background-color: var(--main-color)}
+.Nd  {background-color: var(--main-color)}
+.Pm  {background-color: var(--main-color)}
+.Sm  {background-color: var(--main-color)}
+.Eu  {background-color: var(--main-color)}
+.Gd  {background-color: var(--main-color)}
+.Tb  {background-color: var(--main-color)}
+.Dy  {background-color: var(--main-color)}
+.Ho  {background-color: var(--main-color)}
+.Er  {background-color: var(--main-color)}
+.Tm  {background-color: var(--main-color)}
+.Yb  {background-color: var(--main-color)}
+.Lu  {background-color: var(--main-color)}
+.Hf  {background-color: var(--main-color)}
+.Ta  {background-color: var(--main-color)}
+.W  {background-color: var(--main-color)}
+.Re  {background-color: var(--main-color)}
+.Os  {background-color: var(--main-color)}
+.Ir  {background-color: var(--main-color)}
+.Pt  {background-color: var(--main-color)}
+.Au  {background-color: var(--main-color)}
+.Hg  {background-color: var(--main-color)}
+.Tl  {background-color: var(--main-color)}
+.Pb  {background-color: var(--main-color)}
+.Bi  {background-color: var(--main-color)}
+.Po  {background-color: var(--main-color)}
+.At  {background-color: var(--main-color)}
+.Rn  {background-color: var(--main-color)}
+.Fr  {background-color: var(--main-color)}
+.Ra  {background-color: var(--main-color)}
+.Ac  {background-color: var(--main-color)}
+.Th  {background-color: var(--main-color)}
+.Pa  {background-color: var(--main-color)}
+.Np  {background-color: var(--main-color)}
+.Pu  {background-color: var(--main-color)}
+.Am  {background-color: var(--main-color)}
+.Cm  {background-color: var(--main-color)}
+.Bk  {background-color: var(--main-color)}
+.Cf  {background-color: var(--main-color)}
+.Es  {background-color: var(--main-color)}
+.Fm  {background-color: var(--main-color)}
+.Md  {background-color: var(--main-color)}
+.No  {background-color: var(--main-color)}
+.Lr  {background-color: var(--main-color)}
+.Rf  {background-color: var(--main-color)}
+.Db  {background-color: var(--main-color)}
+.Sg  {background-color: var(--main-color)}
+.Bh  {background-color: var(--main-color)}
+.Hs  {background-color: var(--main-color)}
+.Mt  {background-color: var(--main-color)}
+.B  {background-color: var(--main-color)}
+.C  {background-color: var(--main-color)}
+.N  {background-color: var(--main-color)}
+.O  {background-color: var(--main-color)}
+.F  {background-color: var(--main-color)}
+.P  {background-color: var(--main-color)}
+.S  {background-color: var(--main-color)}
+.U  {background-color: var(--main-color)}
+.K  {background-color: var(--main-color)}
+.V  {background-color: var(--main-color)}
+.Y  {background-color: var(--main-color)}
+.I  {background-color: var(--main-color)}
+.H  {background-color: var(--main-color)}
