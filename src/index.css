@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-dark;
+}
+
+.elem-diatomic-nonmetal {
+    @apply bg-red-500;
+}
+.elem-noble-gas {
+    @apply bg-orange-500;
+}
+.elem-alkali-metal {
+    @apply bg-amber-500;
+}
+.elem-alkaline-earth-metal {
+    @apply bg-yellow-500;
+}
+.elem-metalloid {
+    @apply bg-lime-500;
+}
+.elem-polyatomic-nonmetal {
+    @apply bg-green-500;
+}
+.elem-post-transition-metal {
+    @apply bg-cyan-500;
+}
+.elem-transition-metal {
+    @apply bg-sky-500;
+}
+.elem-lanthanide {
+    @apply bg-blue-500;
+}
+.elem-actinide {
+    @apply bg-purple-500;
+}
+.elem-unknown {
+    @apply bg-neutral-500;
+}
