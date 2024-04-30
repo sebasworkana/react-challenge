@@ -39,7 +39,6 @@ export const appSlice = createSlice({
       .addCase(fetchPeriodicTable.fulfilled, (state, action) => {
         state.loading = false;
         state.elements = action.payload;
-        console.log('*******', action.payload);
       })
       .addCase(fetchPeriodicTable.rejected, (state, action) => {
         state.loading = false;
