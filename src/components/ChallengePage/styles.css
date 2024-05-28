@@ -1,0 +1,79 @@
+.div-form{
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  background-color: #000;
+  border-radius: 10px;
+  padding: 25px;
+  margin-top: 40px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgb(196 196 196 / 75%);
+  -moz-box-shadow: 10px 10px 5px 0px rgb(196 196 196 / 75%);
+  box-shadow: 10px 10px 5px 0px rgb(196 196 196 / 75%);
+  
+}
+.div-textView h1{
+  font-size: 92px;
+  line-height: 20px;
+  color: #fff;
+}
+.div-inputs{
+  gap: 20px;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+.div-inputs div{
+  flex: 1;
+  text-align: left;
+}
+.div-button{
+  margin-top: 20px;
+}
+.label-inputs{
+  color: #fff;
+}
+input{
+  padding: 7px;
+  border-radius: 5px;
+  border: 0px;
+  width: 100%;
+  background: #b1b1b1;
+}
+button{
+  border: 0px;
+  background: #11472f;
+  color: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.element-found{
+  padding: 13px;
+  background: #11472f;
+}
+
+@media screen and (max-width: 992px) {
+  .div-form{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .div-inputs{
+    width: 100%;
+    display: block;
+  }
+  .div-form{
+    width: 85%;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
+  .div-textView h1{
+    font-size: 40px;
+  }
+  .element-found{
+    padding: 7px;
+  }
+}

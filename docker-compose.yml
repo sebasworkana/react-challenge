@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  app:
+    image: node:14
+    volumes:
+      - ./src:/index
+    ports:
+      - "3000:3000"
+    command: npm start
