@@ -1,14 +1,24 @@
-# DO NOT PULL TO THIS REPOSITORY
-### react-challenge
+# react-challenge
 
-1. Create a fork of this public repository https://github.com/sebasworkana/react-challenge.git on your own repository, and push it to a branch called react-challenge and then send a PR to your main branch, finally give us access to this github user sebasworkana.
-2. The main challenge is that you create a Page with the following Style and format.
 [![React-Challenge.png](https://i.postimg.cc/nrNG2p2R/React-Challenge.png)](https://postimg.cc/30CGJMPm)
-3. You need to enumerate all Periodic table of the elements on CSS class and make use of it, matching words in First name and last name “Highlighting” them as in the image.
-4. First, install “react-redux”, then use the useDispatch and useSelector react-redux hooks in the components.
-5. For this challenge use redux-thunk in it. Moreover, use the react-redux hooks to give a better impression and avoid older techniques. Share data among components without using props.
-6. Is mandatory to use linter like ESLINT
-7. Create npm scripts to run project and make sure to create a readme with instructions to
-run project
-8. Will be valuable if you can create Docker compose file to run all environment
-9. Use github pages to host web app and test
+
+1. React challenge to create a application that gets two inputs from user and convert the letters as the Breaking Bad tv show logo if the 2 first letters of each word matchs a element form periodic table.
+2. The app was developed using the following tools:
+    - React
+    - Redux
+    - Tailwindcss
+    - Eslint
+    - Typescript
+    - npm
+3. Steps to run
+
+    *** NPM ***
+    - run the following command inside project folder: `npm run start`;
+    - This will start the project and you can check on browser http://localhost:3000/.
+
+    *** DOCKER ***
+    - First you need to create the docker container, for that you can run `npm run docker:build`;
+    - Then you can run `npm run docker:up` to run the container;
+    - This will start the project inside the docker container so you can check it on http://localhost:3000/.
+
+

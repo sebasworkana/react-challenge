@@ -1,0 +1,67 @@
+{
+  "homepage": "https://arthursoliv.github.io/react-challenge",
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.97",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.19",
+    "postcss-cli": "^11.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-redux": "^9.1.2",
+    "react-scripts": "5.0.1",
+    "redux": "^5.0.1",
+    "redux-thunk": "^3.1.0",
+    "tailwindcss": "^3.4.3",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "docker:build": "docker-compose build",
+    "docker:up": "docker-compose up"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@eslint/compat": "^1.0.1",
+    "@eslint/js": "^9.3.0",
+    "@types/react-redux": "^7.1.33",
+    "@types/redux": "^3.6.0",
+    "@types/redux-thunk": "^2.1.0",
+    "eslint": "^8.57.0",
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-plugin-react": "^7.34.2",
+    "gh-pages": "^6.1.1",
+    "globals": "^15.3.0",
+    "typescript-eslint": "^7.11.0"
+  }
+}
