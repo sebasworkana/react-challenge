@@ -1,0 +1,18 @@
+# Start command: docker compose -f docker-compose.dev.yml up -d
+# Stop command: docker compose -f docker-compose.dev.yml stop
+services:
+  react-project-dev:
+    container_name: react-project-container
+    image: react-project-dev-image
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    ports:
+      - "5173:5173"
+    volumes:
+      # Create a volume for the node_modules folder so that it is not overwritten by the host machine as it is platform dependent
+      - /react-project/node_modules
+      # .:/ means react-project is the current directory of the host machine mapped to the /react-project directory of the container
+      - .:/react-project
+    # Run the dev server with the --host flag to allow access from the host machine (vite server is only accessible from the container by default)
+    command: npm run dev -- --host
